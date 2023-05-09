@@ -277,7 +277,7 @@ return [
     |
     */
 
-    'api_init' => null,
+    'api_init' => '\App\Providers\AppServiceProvider::shopifyApiClosure',
 
     /*
     |--------------------------------------------------------------------------
